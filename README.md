@@ -1,1 +1,4 @@
 # Bangla-Text-Feature-Extraction
+
+Selection of text features is a fundamental task in text mining and information retrieval. Although several deep learning models are applied for this purpose in different languages, they have been rarely used in Bangla so far. In this work, we implement three deep learning generative models, i.e. LSTM variational autoencoder (LSTM VAE), auxiliary classifier generative adversarial network (AC-GAN) and adversarial autoencoder (AAE) and utilized them for extracting text features. These models are trained with a large dataset of 2,58,960 Bangla articles. Later we use the feature space obtained from these three models in Bangla document classification task. We have also analyzed the usefulness of these text features by evaluating the performance of the classifier. Find the dataset here:
+https://github.com/Rafi-ur-Rashid/Bangle_Text_classification_dataset
